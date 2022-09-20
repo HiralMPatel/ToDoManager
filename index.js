@@ -92,7 +92,7 @@ const toDisplayableList = (list) => {
      const result=list.map(display).join("\n");
      function display(item)
      {
-      return `${item.completed ? '[X]':'[ ]'} ${item.title} ${new Date(item.dueDate).toISOString().split('T')[0] === new Date().toISOString().split('T')[0]?' ':item.dueDate}`
+      return `${item.completed ? '[x]':'[ ]'} ${item.title} ${new Date(item.dueDate).toISOString().split('T')[0] === new Date().toISOString().split('T')[0]?' ':item.dueDate}`
      }
      return result;
 }
