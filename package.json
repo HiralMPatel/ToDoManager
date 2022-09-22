@@ -4,8 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "prepare": "husky install"
   },
   "author": "Hiral Patel <hmpatel.ce@spcevng.ac.in>",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.23.1",
+    "husky": "^8.0.1",
+    "jest": "^29.0.3",
+    "lint-staged": "^13.0.3",
+    "prettier": "^2.7.1"
+  }
 }
