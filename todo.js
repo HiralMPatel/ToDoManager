@@ -1,4 +1,6 @@
+/* eslint-disable no-undef */
 const todoList = () => {
+    // eslint-disable-next-line no-undef
     all = []
     const add = (todoItem) => {
       all.push(todoItem)
