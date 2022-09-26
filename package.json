@@ -18,5 +18,11 @@
   },
   "dependencies": {
     "moment": "^2.29.4"
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint",
+      "prettier --write ."
+    ]
   }
 }
